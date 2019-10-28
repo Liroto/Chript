@@ -29,7 +29,7 @@ namespace Cipher
                 encrypted[i] = Encoding.GetEncoding(1251).GetBytes(non_encrypt[i]);
             }
             //byte[] bytes = Encoding.GetEncoding(1251).GetBytes(input);
-
+            //
             //label1.Text = non_encrypt[3].ToString();
         }
     }
